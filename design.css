@@ -1,0 +1,50 @@
+body{
+  height: 100vh;
+  width: 100vw;
+  background-color: white !important;
+}
+
+.parantdiv{
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  align-content: center;
+  /* align-content: space-around; */
+  justify-content: space-around;
+  background: rgb(233, 227, 227);
+}
+.div1{
+  width: 15rem;
+  background: red;
+}
+.div2{
+  width: 15rem;
+  background: salmon;
+}
+
+.div3{
+  width: 15rem;
+  background: blue;
+  background: yellow;
+}
+
+.div4{
+  width: 15rem;
+  background: pink;
+}
+
+.div5{
+  width: 15rem;
+  background: orangered;
+}
+.div6{
+  width: 15rem;
+  background: darkcyan;
+}
+.min-height{
+  height: 10rem;
+}
+.select{
+  min-height: 300px ;
+  width: 50px;
+}
